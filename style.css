@@ -1,0 +1,40 @@
+body {
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+nav ul {
+    background-color: aliceblue;
+    display: flex;
+}
+
+li {
+    margin: 25px;
+    list-style: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.aside {
+    padding: 20px;
+    width: 50%;
+    height: 800px;
+    border: 1px solid #dedede;
+    border-radius: 20px;
+}
+
+.bside {
+    padding: 20px;
+    width: 30%;
+    height: 400px;
+    border: 1px solid #dedede;
+    border-radius: 20px;
+}
